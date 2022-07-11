@@ -1,0 +1,9 @@
+Save this snippet in:
+
+%USERPROFILE%\Documents\Visual Studio 2020\Code Snippets\Visual C#\My Code Snippets\
+
+Name your snippet something like unittest.snippet.
+
+In Visual Studio, you will then just type ut and hit tab twice to use this snippet.
+
+If you have Resharper installed, you will either need to switch back to Visual Studio Intellisense in Resharper's options or use Ctrl+K, X to bring up the snippet menu.
