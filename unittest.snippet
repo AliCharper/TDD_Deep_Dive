@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Unit Test</Title>
+      <Author></Author>
+      <Description>Unit Test Template with 3 Parts</Description>
+      <HelpUrl>https://msdn.microsoft.com/en-us/library/ms165394.aspx</HelpUrl>
+      <SnippetTypes />
+      <Keywords />
+      <Shortcut>ut</Shortcut>
+    </Header>
+    <Snippet>
+      <References />
+      <Imports />
+      <Declarations>
+        <Literal Editable="true">
+          <ID>uow</ID>
+          <Type></Type>
+          <ToolTip>Name of the unit of work or scenario under test</ToolTip>
+          <Default>UoW</Default>
+          <Function></Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>initialcondition</ID>
+          <Type></Type>
+          <ToolTip></ToolTip>
+          <Default>InitialCondition</Default>
+          <Function></Function>
+        </Literal>
+        <Literal Editable="true">
+          <ID>expectedresult</ID>
+          <Type></Type>
+          <ToolTip>What your expected result is</ToolTip>
+          <Default>ExpectedResult</Default>
+          <Function></Function>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp" Kind="method decl" Delimiter="$"><![CDATA[[Fact]
+public void $uow$_$initialcondition$_$expectedresult$()
+{
+	//Arrange
+	$end$
+
+	//Act
+
+
+	//Assert
+
+}]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
